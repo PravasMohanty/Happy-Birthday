@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ff4f88" />
+    <title>A little surprise for you ✦</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="confetti" aria-hidden="true"></div>
+    <main>
+      <section id="newsletter" class="newsletter">
+        <div class="paper-grain"></div>
+        <div class="issue"><span>THE SUNNY SIDE</span><span>VOL. 11.14.03</span><span>FOR YOUR EYES ONLY</span></div>
+        <div class="masthead">a small<br /><em>good thing</em></div>
+        <p class="edition">The birthday edition</p>
+        <div class="newsletter-grid">
+          <div class="side-copy"><span class="eyebrow">Breaking news</span><h2>Someone rather wonderful turns <span id="age">23</span> today.</h2><p>There are people who make ordinary days feel a little more like a reason to celebrate. You happen to be one of them.</p></div>
+          <button id="open-card" class="front-page" aria-label="Open your birthday surprise">
+            <span class="seal">open<br />me</span>
+            <span class="mini-stars">✦ &nbsp; ✧ &nbsp; ✦</span>
+            <span class="front-title">A note<br />for <em>you.</em></span>
+            <span class="click-me">Click to unfold</span>
+          </button>
+          <div class="side-copy tiny"><span class="eyebrow">An exclusive</span><p>Inside: a few warm wishes, a little mischief, and a game that may get a bit poppy.</p><p class="signed">With an unreasonable amount of fondness, <br />someone who’s glad you exist.</p></div>
+        </div>
+        <div class="ticker"><span>HAPPY BIRTHDAY</span><span>•</span><span>MAKE A WISH</span><span>•</span><span>14 NOVEMBER</span><span>•</span><span>HAPPY BIRTHDAY</span><span>•</span><span>MAKE A WISH</span></div>
+      </section>
+
+      <section id="card" class="card hidden" aria-live="polite">
+        <div class="topbar"><span>14 / 11 / 2003</span><span class="birthday-mark">birthday girl ✦</span><button id="sound-toggle" aria-pressed="false" title="Toggle celebration sound">♫</button></div>
+        <div class="hero">
+          <p class="eyebrow pink">A whole day dedicated to you</p>
+          <h1>Happy <em>Birthday,</em><br />Priyadarshini.</h1>
+          <p class="intro">May this new chapter be as bright, bold, and unexpectedly lovely as you are. (And may I be lucky enough to see plenty of it.)</p>
+          <div class="scroll-prompt">keep going <span>↓</span></div>
+        </div>
+        <div class="doodle sun">✺</div><div class="doodle squiggle">〰</div><div class="doodle heart">♡</div>
+
+        <section class="wish-section">
+          <p class="eyebrow">A birthday wish, sealed with a smile</p>
+          <div class="wish-card"><span class="quote">“</span><p>I hope the year ahead keeps finding new ways to surprise you — preferably the kind that make you smile that <em>ridiculously pretty</em> smile.</p><span class="quote end">”</span></div>
+        </section>
+
+        <section class="game-section" id="balloon-game">
+          <p class="eyebrow pink">Priyadarshini’s birthday challenge</p>
+          <h2>As you turn <em>23,</em> pop<br /><em id="balloon-total">23</em> balloons to unlock your surprise.</h2>
+          <p class="game-help">One little pop for every wonderful year. Ready when you are.</p>
+          <p id="progress" class="progress">0 / 23 popped</p>
+          <div id="balloon-area" class="balloon-area" aria-label="Balloon popping game"></div>
+        </section>
+
+        <section id="finale" class="finale hidden">
+          <div class="sparkle-row">✦ &nbsp; ✧ &nbsp; ✦</div>
+          <p class="eyebrow">You did it</p>
+          <h2>Now for the <em>real</em> surprise.</h2>
+          <p>Happy 23rd birthday, Priyadarshini! 
+
+I hope today reminds you just how loved and adored you are — and if it doesn’t, consider this your official reminder. You’re honestly one of those people who are just impossible not to like.
+
+After being out of touch for so long, I never imagined I’d end up finding such a great friend in you, but I’m genuinely glad I did. 
+
+Also, consider this a little reminder to not lose sight of your health while chasing your career and all the things you want to achieve. You’re only 23, and you’ve got a whole life ahead of you, so don’t get so caught up in building your future that you forget to take care of yourself in the present.
+
+And of course, that life would be considerably less exciting without me around to entertain you. 
+
+Jokes apart, I genuinely wish you good health, happiness, success, and plenty of reasons to smile this year. You deserve all the good things life has to offer.
+
+Have the happiest birthday! </p>
+          <button id="replay">Pop them again</button>
+        </section>
+        <footer>made especially for an especially lovely person ✦</footer>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
